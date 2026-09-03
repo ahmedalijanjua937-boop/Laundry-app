@@ -1,0 +1,1 @@
+namespace FreshCycle.Api.Models;public class Order{public int Id{get;set;}public string CustomerName{get;set;}="";public DateTime PickupDate{get;set;}public string PickupWindow{get;set;}="";public int? ServiceId{get;set;}public string Notes{get;set;}="";public string Status{get;set;}="Requested";public decimal Total{get;set;}public DateTime CreatedAt{get;set;}=DateTime.UtcNow;}
